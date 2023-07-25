@@ -9,18 +9,6 @@ else
     ARCH="64"
     FNAME="amd64"
 fi
-
-rm -rf /etc/UDPCustom
-mkdir -p /etc/UDPCustom
-udp_dir='/etc/UDPCustom'
-udp_file='/etc/UDPCustom/udp-custom'
-touch /etc/UDPCustom/udp-custom
-rm -rf $udp_file
-rm -rf /etc/UDPCustom/udp-custom
-rm -rf /etc/limiter.sh
-rm -rf /etc/UDPCustom/limiter.sh
-rm -rf /etc/UDPCustom/module
-rm -rf /usr/bin/udp
 source <(curl -sSL 'https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/module/module') &>/dev/null
 wget -O /etc/UDPCustom/module 'https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/module/module' &>/dev/null
 wget -O /etc/UDPCustom/udp-custom 'https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/bin/udp-custom' &>/dev/null
