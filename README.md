@@ -22,7 +22,7 @@ see [commits](https://github.com/prjkt-nv404/UDP-Custom-Installer-Manager/commit
 sudo -s
 ``` 
 ```
-wget "https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/install.sh" -O install.sh && chmod +x install.sh && ./install.sh
+wget "https://raw.github.com/Favourland/UDP-Custom-Installer-Manager/main/install.sh" -O install.sh && chmod +x install.sh && ./install.sh
 ```
 
 
